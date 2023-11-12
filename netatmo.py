@@ -6,11 +6,11 @@ import lnetatmo
 import datetime
 from influxdb import InfluxDBClient
 
-host = '192.168.178.22'
-port = '8086'
+host = 'host'
+port = 'port'
 user = 'admin'
-password = 'influx'
-dbname = 'netatmo'
+password = 'password'
+dbname = 'database'
 
 utctime = datetime.datetime.utcnow()
 authorization = lnetatmo.ClientAuth()
